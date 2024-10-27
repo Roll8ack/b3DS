@@ -33,6 +33,10 @@ KeyX0x2C = struct.unpack('>QQ', b'\xB9\x8E\x95\xCE\xCA\x3E\x4D\x17\x1F\x76\xA9\x
 # KeyX0x25 = struct.unpack('>QQ', b'\x81\x90\x7A\x4B\x6F\x1B\x47\x32\x3A\x67\x79\x74\xCE\x4A\xD7\x1B')
 # KeyX0x2C = struct.unpack('>QQ', b'\x51\x02\x07\x51\x55\x07\xCB\xB1\x8E\x24\x3D\xCB\x85\xE2\x3A\x1D')
 
+if len(sys.argv) < 2:
+  print(f'Usage: {sys.argv[0]} "File location of rom"')
+  exit()
+
 filename = sys.argv[1]
 
 with open(filename, 'rb') as f:
