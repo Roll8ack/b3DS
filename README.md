@@ -6,10 +6,10 @@ A 3DS/New 3DS Rom Decryptor and Encrypter
 ## Prerequisites
 * Python 3.11+
 * pip
-* pycryptodome
+* pycryptodomex
 
 ## Installation
-After you've installed the latest version of Python 2, run `pip install pycryptodome` in command prompt.
+After you've installed the latest version of Python 3, run `pip install pycryptodomex` in command prompt.
 
 ## Usage
 python {b3DSEncrypt.py|b3DSDecrypt.py} "File location of rom" eg. '~/dox/games/emulator/nintendo/3ds/3DS0033 - The Legend of Zelda Ocarina of Time 3D (U).3ds'
